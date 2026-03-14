@@ -153,10 +153,10 @@ hr {
   margin: 0;
   font-size: 1.05rem;
 }
-/* --- YENİ FORM BÖLÜMÜ TASARIMLARI (PREMIUM GÖRÜNÜM) --- */
+/* --- FORM BÖLÜMÜ TASARIMLARI --- */
 .transaction-form-card {
   background: white;
-  border-radius: 16px; /* Daha yumuşak köşeler */
+  border-radius: 16px;
   padding: 25px;
   margin-bottom: 30px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05); /* Daha derin bir gölge */
@@ -195,7 +195,6 @@ hr {
   letter-spacing: 0.5px;
 }
 
-/* KUTUCUKLARIN YENİ HALİ */
 .form-group select,
 .form-group input {
   padding: 12px 15px;
