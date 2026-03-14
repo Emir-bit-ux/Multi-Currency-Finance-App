@@ -61,7 +61,5 @@ namespace FinanceAPI.Controllers
 
             return Ok(portfolioSummary);
         }
-        
-        // (Eğer bu dosyada [HttpPost] Analyze gibi başka metodların varsa onları silme, alt kısımda kalsınlar)
     }
 }
