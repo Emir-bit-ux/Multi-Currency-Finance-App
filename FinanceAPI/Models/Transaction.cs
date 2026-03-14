@@ -8,11 +8,11 @@ namespace FinanceAPI.Models
         public decimal UnitPrice { get; set; }
         public DateTime Date { get; set; } = DateTime.UtcNow;
 
-        // İlişkiler
+        
         public int UserId { get; set; }
-        public User? User { get; set; } // DİKKAT: Buraya soru işareti (?) eklendi
+        public User? User { get; set; }
 
         public int AssetId { get; set; }
-        public Asset? Asset { get; set; } // DİKKAT: Buraya soru işareti (?) eklendi
+        public Asset? Asset { get; set; }
     }
 }
