@@ -30,9 +30,12 @@ Proje geliştirme sürecinde karşılaşılan en büyük zorluk, standart finans
 
 **Çözüm:** Standart API uç noktaları yerine, Yahoo'nun doğrudan grafik çizdirmek için kullandığı düşük gecikmeli **v8 Chart API** altyapısına tersine mühendislik (reverse-engineering) ile erişildi. Unix Timestamp (Zaman Damgası) dönüşümleri yapılarak hem anlık fiyatlar hem de geçmiş tarihli (`GetHistoricalPriceAsync`) maliyet fiyatları pürüzsüz ve limitsiz bir şekilde sisteme entegre edildi.
 
-## 📸 Ekran Görüntüleri
+## Ekran Görüntüleri
+![Light Mode](LightMode.png)
+![Light Mode](LightMode1.png)
 
-
+![Dark Mode](DarkMode.png)
+![Dark Mode](DarkMode1.png)
 
 ---
 *Bu proje, finansal verilerin yönetimi ve farklı mimarilerin (Frontend - Backend - External API) birbirleriyle nasıl asenkron ve hatasız haberleştiğini deneyimlemek amacıyla geliştirilmiştir.*
