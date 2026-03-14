@@ -174,7 +174,6 @@ function App() {
         <p className="loading-text">Cüzdan bilgileri yükleniyor...</p>
       ) : (
         <>
-          {/* SADECE BU KISMI GÜNCELLE */}
           {portfolio.length > 0 && (
             <div className="chart-section" style={{ width: '100%', height: 350, backgroundColor: 'white', padding: '20px', borderRadius: '10px', marginBottom: '20px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
               <h2 style={{ textAlign: 'center', marginBottom: '20px', color: '#2c3e50', fontSize: '1.5rem' }}>Portföy Dağılımı (TL Bazında)</h2>
@@ -182,7 +181,7 @@ function App() {
                 <PieChart>
                   <Pie
                     data={portfolio}
-                    dataKey="totalValueTRY" /* DİKKAT: Artık düz rakama değil, TL karşılığına bakıyor! */
+                    dataKey="totalValueTRY"
                     nameKey="symbol"
                     cx="50%"
                     cy="50%"
