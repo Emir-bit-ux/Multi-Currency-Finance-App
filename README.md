@@ -1,4 +1,4 @@
-# Global Portfolio Manager (Multi-Currency Finance App)
+# Multi Currency Finance App
 
 Bu proje, farklı küresel borsalardaki (BIST, NASDAQ,vb.) yatırımları tek bir ekrandan takip etmeyi sağlayan, çoklu para birimi (Multi-Currency) destekli bir Full-Stack finansal portföy yönetim sistemidir. 
 
